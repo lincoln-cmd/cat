@@ -1,0 +1,90 @@
+/* commonness */
+*,
+*::before,
+*::after {
+  box-sizing : border-box;
+}
+html {
+  font-size : 15px;
+  font-weight : 450;
+}
+p {
+  font-size : 12px;
+}
+a {
+  text-decoration : none;
+}
+
+/* body */
+body {
+  min-width : 1060px;
+}
+.container {
+  position : relative;
+  max-width : 1400px;
+}
+.header {
+  text-align : center;
+  text-decoration : lightgray underline;
+  color : gray;
+  height : 100px;
+  margin-top : 20px;
+  border-bottom : solid 1px black;
+}
+.cat-type {
+  display: inline-block;
+  float : right;
+}
+.cat-type-item {
+  display : inline-block;
+  padding : 5px;
+}
+
+
+/* main */
+.main-content {
+  height : 700px;
+}
+.main-container {
+  height : 60%;
+  width : 100%;
+}
+#hide {
+  color : white;
+  font-size : 8px;
+}
+
+
+/* side */
+.side {
+  background : pink;
+  height : 40%;
+  width : 100%;
+}
+.side-container {
+  position : relative;
+}
+.pic_cat {
+  width : 19%;
+  height : 265px;
+  padding : 0 12px 0 12px;
+  transition : all 3s;
+}
+.pic_cat:hover {
+  -webkit-filter : grayscale(30%) blur(2px);
+  -o-filter : grayscale(30%) blur(2px);
+  filter : grayscale(30%) blur(2px);
+  transition: all 3s;
+}
+
+
+/* footer */
+.footer {
+  border-top : solid 1px black;
+}
+#master {
+  text-align : right;
+  float : right;
+  font-weight : 550;
+  font-size : 18px;
+}
